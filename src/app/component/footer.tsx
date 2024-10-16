@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import react from "react";
 import logo from "../../../public/MFS Logo-01.png";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";

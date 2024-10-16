@@ -4,7 +4,7 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 import ProfilePic from "../../../public/Profile Pic-01.svg"
 
-const Hero = (props: any) => {
+const Hero = () => {
   return (
     <div>
       <section className="text-gray-600 body-font bg-fixed bg-gray-900 h-full w-full">

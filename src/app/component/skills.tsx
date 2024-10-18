@@ -43,7 +43,7 @@ const Skills = () => {
             </div>
             <div className="m-2 p-4 bg-gray-200 rounded shadow-lg transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:shadow-gray-400">
               <a
-                href="https://vercel.com/muhammadfahadsiddiquis"
+                href="https://vercel.com/muhammadfahadsiddiquis-projects"
                 className="text-xl font-semibold"
               >
                 Vercel

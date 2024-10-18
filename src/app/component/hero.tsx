@@ -26,7 +26,7 @@ const Hero = () => {
               for Cloud Applied Generative AI.
             </p>
           </div>
-          <div className="lg:max-w-lg lg:w-full">
+          <div">
             <Image
               className="object-cover object-center rounded"
               alt="Fahad"

@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import React from "react";
 import Typewriter from "typewriter-effect";
 import ProfilePic from "../../../public/Profile Pic-01.svg"

@@ -1,6 +1,3 @@
-import react from "react";
-import Image from "next/image";
-
 const Skills = () => {
   return (
     <div id="skills">

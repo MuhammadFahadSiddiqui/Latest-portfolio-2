@@ -1,7 +1,8 @@
 "use client";
 import React from "react";
 import Typewriter from "typewriter-effect";
-import ProfilePic from "../../../public/Profile Pic-01.svg"
+import ProfilePic from "../../../public/Profile Pic-01.svg";
+import Image from 'next/image';
 
 const Hero = () => {
   return (
@@ -10,7 +11,7 @@ const Hero = () => {
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-5xl text-3xl mb-4 font-medium text-white">
-              Hi! <span className="text-cyan-400 font-medium">I'm,</span>
+              Hi! <span className="text-cyan-400 font-medium">&apos;I'm,&apos;</span>
               <br className="hidden lg:inline-block text-cyan" />
               <Typewriter
                 options={{

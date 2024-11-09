@@ -16,7 +16,7 @@ const Navbar = () => {
               width={100}
               height={100}
             />
-            <span className="ml-10 text-2xl text-white">Portfolio</span>
+            {/* <span className="ml-10 text-2xl text-white">Portfolio</span> */}
           </a>
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center text-white">
             <Link href={"/"} className="mr-5 hover:text-cyan-500">

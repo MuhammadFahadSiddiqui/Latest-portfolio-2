@@ -1,0 +1,108 @@
+/* Container for the contact section */
+.contact-section {
+    padding: 6rem 1.25rem;
+    background-color: #f7fafc;
+  }
+  
+  /* Title styling */
+  .contact-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+    margin-top: 4rem;
+    text-align: center;
+  }
+  
+  .contact-title span {
+    color: #0891b2; /* Tailwind's cyan-600 */
+  }
+  
+  /* Flex container for form */
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media (min-width: 1024px) {
+    .contact-container {
+      flex-direction: row;
+    }
+  }
+  
+  /* Form container styling */
+  .contact-form {
+    background-color: #edf2f7; /* Tailwind's gray-200 */
+    border-radius: 1.25rem;
+    padding: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin-top: 2rem;
+  }
+  
+  /* Input and textarea styling */
+  .contact-inputs {
+    width: 100%;
+    background-color: #f7fafc; /* Tailwind's gray-100 */
+    border: 1px solid #e2e8f0; /* Tailwind's gray-300 */
+    border-radius: 0.375rem;
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #4a5568; /* Tailwind's gray-700 */
+  }
+  
+  .contact-inputs:focus {
+    border-color: #6b7280; /* Tailwind's gray-500 */
+    ring-color: #e2e8f0; /* Tailwind's gray-200 */
+    outline: none;
+  }
+  
+  /* Status message styling */
+  .status-message {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .status-sending {
+    color: #6b7280; /* Tailwind's gray-500 */
+  }
+  
+  .status-error {
+    color: #f56565; /* Tailwind's red-500 */
+  }
+  
+  .status-success {
+    color: #38a169; /* Tailwind's green-500 */
+  }
+  
+  /* Submit button styling */
+  .submit-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0891b2; /* Tailwind's cyan-600 */
+    color: #fff;
+    padding: 0.75rem 2rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    border: 0;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, background-color 0.3s;
+  }
+  
+  .submit-btn:hover {
+    transform: scale(1.1);
+    background-color: #2c7f9c; /* Tailwind's cyan-700 */
+  }
+  
+  /* Arrow icon next to the button */
+  .submit-btn img {
+    margin-left: 0.5rem;
+    width: 20px;
+    height: 20px;
+  }
+  

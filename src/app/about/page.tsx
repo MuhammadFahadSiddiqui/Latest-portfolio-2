@@ -1,6 +1,6 @@
 import Image from "next/image";
 import ProfilePic from "../../../public/Profile Pic 2.svg";
-import './about.css';
+import './About.css';
 
 const About = () => {
   return (

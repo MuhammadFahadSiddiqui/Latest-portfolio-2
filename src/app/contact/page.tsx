@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from "react";
-import './Contact.css';
+import './contact.css';
 
 const Contact = () => {
   const [status, setStatus] = useState<string | null>(null); // State to manage the form status (null, Sending..., Success, Error)

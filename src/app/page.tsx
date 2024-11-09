@@ -1,8 +1,9 @@
-import Hero from "./component/hero";
-import About from "./component/about";
-import Skills from "./component/skills";
-import Education from "./component/education";
-import Contact from "./component/contact";
+import About from "./about/page";
+import Contact from "./contact/page";
+import Education from "./education/page";
+import Hero from "./hero/page";
+import Skills from "./skills/page";
+
 
 export default function Home() {
   return (

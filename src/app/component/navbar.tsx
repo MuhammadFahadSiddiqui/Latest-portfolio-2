@@ -8,9 +8,9 @@ const Navbar = () => {
   return (
     <div className="z-50 sticky top-0">
       <header className="text-gray-600 body-font bg-fixed bg-gray-900 h-full w-full">
-        <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-          <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-            <Image
+        <div className="container mx-auto my-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a className="flex title-font font-medium items-center text-gray-900 my-2 md:mb-0">
+            <Image 
               src={logo}
               alt="MFS"
               width={100}
